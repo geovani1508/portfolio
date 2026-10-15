@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Wabo Geovani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header small-header">
+      <div class="container nav-bar">
+        <div class="brand">Wabo Geovani</div>
+        <nav class="menu" aria-label="Menu principal">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="projects.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-standalone section">
+        <div class="container contact-grid">
+          <div class="contact-text">
+            <p class="eyebrow accent">Contact</p>
+            <h2>Travaillons ensemble sur votre prochain projet.</h2>
+            <p>
+              Je suis disponible pour des missions de création de site web, de refonte de design ou de développement front-end.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:wabogeovani02@gmail.com">wabogeovani02@gmail.com</a>
+              <a href="https://wa.me/237699576873" target="_blank" rel="noreferrer">WhatsApp</a>
+            </div>
+          </div>
+
+          <form class="contact-form" action="mailto:wabogeovani02@gmail.com" method="post" enctype="text/plain">
+            <label>
+              <span>Nom</span>
+              <input type="text" name="nom" placeholder="Votre nom" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="Votre email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Décrivez votre projet" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+              <button type="reset" class="btn btn-secondary">Réinitialiser</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 Wabo Geovani. Tous droits réservés.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
